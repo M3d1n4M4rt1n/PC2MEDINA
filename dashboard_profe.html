@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard Profesor</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* Estilos adicionales para la página del dashboard */
+  .course-card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer; /* Hacer que el cursor cambie al pasar sobre los cursos */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="title">
+      <h2>Bienvenido, Profesor</h2>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="course-card" id="curso1" data-toggle="collapse" href="#collapseCurso1" aria-expanded="false" aria-controls="collapseCurso1">
+        <h3>Ingeniería 1</h3>
+        <img src="img/1.png" alt="Ingeniería 1">
+      </div>
+      <div class="collapse" id="collapseCurso1">
+        <div class="card card-body">
+            Este curso introduce a los estudiantes en los principios fundamentales de la ingeniería, abarcando áreas como la física, las matemáticas y la resolución de problemas. Los estudiantes aprenderán a aplicar estos conceptos en proyectos prácticos que les permitirán desarrollar habilidades de pensamiento crítico y creativo.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="course-card" id="curso2" data-toggle="collapse" href="#collapseCurso2" aria-expanded="false" aria-controls="collapseCurso2">
+        <h3>Programación 2</h3>
+        <img src="img/2.png" alt="Programación 2">
+      </div>
+      <div class="collapse" id="collapseCurso2">
+        <div class="card card-body">
+            En este curso, los estudiantes profundizarán en los conceptos de programación, explorando temas avanzados como estructuras de datos, algoritmos y paradigmas de programación. A través de ejercicios prácticos y proyectos, los estudiantes mejorarán su capacidad para desarrollar software eficiente y escalable.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="course-card" id="curso3" data-toggle="collapse" href="#collapseCurso3" aria-expanded="false" aria-controls="collapseCurso3">
+        <h3>Estadística 2</h3>
+        <img src="img/3.png" alt="Estadística 2">
+      </div>
+      <div class="collapse" id="collapseCurso3">
+        <div class="card card-body">
+            La estadística es una herramienta fundamental en la toma de decisiones en una amplia gama de campos. En este curso, los estudiantes aprenderán técnicas estadísticas avanzadas y su aplicación en la interpretación y análisis de datos. Se explorarán temas como la inferencia estadística, el diseño de experimentos y el modelado estadístico.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="course-card" id="curso4" data-toggle="collapse" href="#collapseCurso4" aria-expanded="false" aria-controls="collapseCurso4">
+        <h3>Desarrollo 4</h3>
+        <img src="img/4.png" alt="Desarrollo 4">
+      </div>
+      <div class="collapse" id="collapseCurso4">
+        <div class="card card-body">
+            El curso de Desarrollo 4 se centra en enseñar las habilidades y técnicas necesarias para desarrollar software de alta calidad y eficiencia. Los estudiantes aprenderán sobre los principios fundamentales del desarrollo de software, así como sobre las tecnologías y herramientas más avanzadas utilizadas en la industria.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="course-card" id="curso5" data-toggle="collapse" href="#collapseCurso5" aria-expanded="false" aria-controls="collapseCurso5">
+        <h3>Filosofía</h3>
+        <img src="img/5.png" alt="Filosofía">
+      </div>
+      <div class="collapse" id="collapseCurso5">
+        <div class="card card-body">
+            La filosofía es el estudio de los problemas fundamentales relacionados con la existencia, el conocimiento, la verdad, la moral, la mente y el lenguaje. En este curso, los estudiantes explorarán las ideas de filósofos destacados a lo largo de la historia y reflexionarán sobre cuestiones profundas relacionadas con la vida, el universo y todo lo demás.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <a href="index.html" class="btn btn-primary mt-4">Cerrar sesión</a>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
